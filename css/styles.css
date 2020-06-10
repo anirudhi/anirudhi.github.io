@@ -1,0 +1,39 @@
+
+
+.container {
+    width: 40%;
+    height: 30%;
+    margin: 10vh auto 0 auto;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    box-shadow: grey 0 0 50px;
+    border-radius: 15px;
+}
+
+.section {
+    margin: 0 auto
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.profile img {
+    width: 60%
+}
+
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 40%;
+        height: 30%;
+        margin: 10vh auto 0 auto;
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        box-shadow: grey 0 0 50px;
+        border-radius: 15px;
+    }
+}
