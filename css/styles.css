@@ -1,10 +1,25 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
 
+body {
+    background-color: white;
+    color: white;
+    display: block;
+}
+
+h1 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
 
 .container {
     width: 40%;
     height: 30%;
-    margin: 10vh auto 0 auto;
-    padding: 25px;
+    margin: 7vh auto 0 auto;
+    padding: 50px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
@@ -16,12 +31,54 @@
     margin: 0 auto
 }
 
-h1 {
-    font-size: 25px;
+.content {
+    padding-top: 30%;
+}
+
+.content ul {
+    font-size: 2vw;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-family: "Comfortaa";
+    line-height: 2em;
+    display: block;
+}
+
+.profile {
+    font-family: "Comfortaa";
+}
+
+.profile .image {
+    width: 75%;
 }
 
 .profile img {
-    width: 60%
+    width: 100%
+}
+
+.container {
+    background-image: linear-gradient(340deg, #47d1ad, #c07d5a);
+    background-size: 400% 400%;
+
+    -webkit-animation: Gride 5s ease infinite;
+    -moz-animation: Gride 5s ease infinite;
+    animation: Gride 5s ease infinite;
+}
+
+@-webkit-keyframes Gride {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@-moz-keyframes Gride {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
+}
+@keyframes Gride {
+    0%{background-position:28% 0%}
+    50%{background-position:73% 100%}
+    100%{background-position:28% 0%}
 }
 
 @media only screen and (max-width: 640px) {
@@ -35,5 +92,17 @@ h1 {
         grid-template-rows: 50% 50%;
         box-shadow: grey 0 0 50px;
         border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .content ul {
+        font-size: 20px;
     }
 }
