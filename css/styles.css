@@ -10,9 +10,20 @@ body {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 2vw;
+    font-weight: 200;
     text-transform: uppercase;
     margin: 0 auto;
+}
+
+.logo {
+    display: flex;;
+}
+
+.logo img {
+    position: relative;
+    top: -4px;
+    width: 2.2vw;
 }
 
 .container {
@@ -32,7 +43,8 @@ h1 {
 }
 
 .content {
-    padding-top: 30%;
+    height: max-content;
+    margin: auto 0;
 }
 
 .content ul {
@@ -44,20 +56,25 @@ h1 {
     display: block;
 }
 
+.description {
+    border-style: solid;
+    border-width: 5px;;
+    border-right: white;
+    border-top: white;
+    border-bottom: white;
+    padding-left: 20px;
+}
+
 .profile {
     font-family: "Comfortaa";
 }
 
-.profile .image {
-    width: 75%;
-}
-
-.profile img {
-    width: 100%
+.photo img {
+    width: 75%
 }
 
 .container {
-    background-image: linear-gradient(340deg, #47d1ad, #c07d5a);
+    background-image: linear-gradient(340deg, #52a58f, #2f463f);
     background-size: 400% 400%;
 
     -webkit-animation: Gride 5s ease infinite;

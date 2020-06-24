@@ -42,8 +42,8 @@ function angle(cx, cy, ex, ey) {
 
 function paintContainer(x1, y1) {
     let orientation = angle(x1, y1, window.innerWidth / 2, window.innerHeight / 2);
-    let colorOne = '#6699ff';
-    let colorTwo = '#ba0e3e';
+    let colorOne = '#52a58f';
+    let colorTwo = '#2f463f';
 
     container[0].style.backgroundImage = 'linear-gradient('
         + orientation + 'deg' + ', ' + colorOne + ', ' + colorTwo + ')';
