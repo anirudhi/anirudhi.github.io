@@ -13,7 +13,7 @@ h1 {
     font-size: 2vw;
     font-weight: 200;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin-left: 20px;
 }
 
 .logo {
@@ -23,7 +23,7 @@ h1 {
 .logo img {
     position: relative;
     top: -4px;
-    width: 2.2vw;
+    width: 40px;
 }
 
 .container {
@@ -98,11 +98,26 @@ h1 {
     100%{background-position:28% 0%}
 }
 
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 60%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .content ul {
+        font-size: 25px;
+        margin-left: 2.2vw;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .container {
-        width: 40%;
+        width: 85%;
         height: 30%;
-        margin: 10vh auto 0 auto;
+        margin: 4vh auto 0 auto;
         padding: 25px;
         display: grid;
         grid-template-columns: 100%;
@@ -112,7 +127,7 @@ h1 {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .content {
@@ -120,6 +135,22 @@ h1 {
     }
 
     .content ul {
-        font-size: 20px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    .photo img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 15px;
     }
 }
