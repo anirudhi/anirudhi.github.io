@@ -10,14 +10,15 @@ body {
 }
 
 h1 {
-    font-size: 2vw;
+    font-size: 2.5em;
     font-weight: 200;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin: auto 20px;
 }
 
 .logo {
-    display: flex;;
+    display: flex;
+    padding: 50px;
 }
 
 .logo img {
@@ -30,12 +31,23 @@ h1 {
     width: 40%;
     height: 30%;
     margin: 7vh auto 0 auto;
-    padding: 50px;
+    box-shadow: grey 0 0 50px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    font-family: "Comfortaa";
+}
+
+.content-container {
+    /* width: 40%;
+    height: 30%;
+    margin: 7vh auto 0 auto; */
+    padding: 0 50px 50px 50px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
-    box-shadow: grey 0 0 50px;
-    border-radius: 15px;
+    /* box-shadow: grey 0 0 50px;
+    border-radius: 15px; */
 }
 
 .section {
@@ -63,10 +75,6 @@ h1 {
     border-top: white;
     border-bottom: white;
     padding-left: 20px;
-}
-
-.profile {
-    font-family: "Comfortaa";
 }
 
 .photo img {
@@ -100,7 +108,7 @@ h1 {
 
 @media only screen and (max-width: 1000px) {
     .container {
-        width: 60%;
+        width: 70%;
     }
 
     p {
@@ -119,11 +127,15 @@ h1 {
         height: 30%;
         margin: 4vh auto 0 auto;
         padding: 25px;
+        box-shadow: grey 0 0 50px;
+        border-radius: 15px;
+        grid-template-rows: 20% 80%;
+    }
+
+    .content-container {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
-        box-shadow: grey 0 0 50px;
-        border-radius: 15px;
     }
 
     h1 {
