@@ -29,7 +29,7 @@ h1 {
 
 .container {
     width: 40%;
-    height: 30%;
+    /* height: 30%; */
     margin: 7vh auto 0 auto;
     box-shadow: grey 0 0 50px;
     border-radius: 15px;
@@ -88,6 +88,11 @@ h1 {
     -webkit-animation: Gride 5s ease infinite;
     -moz-animation: Gride 5s ease infinite;
     animation: Gride 5s ease infinite;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 a.left
