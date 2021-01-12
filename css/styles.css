@@ -90,7 +90,7 @@ h1 {
     animation: Gride 5s ease infinite;
 }
 
-a {
+.left {
     text-decoration: none;
     color: white;
 }
