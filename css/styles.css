@@ -42,7 +42,7 @@ h1 {
     /* width: 40%;
     height: 30%;
     margin: 7vh auto 0 auto; */
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 30px 50px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
@@ -160,9 +160,9 @@ a.left:hover:before {
     }
 
     .content-container {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 50% 50%;
+        display: block;
+        /* grid-template-columns: 100%;
+        grid-template-rows: 50% 50%; */
     }
 
     h1 {
