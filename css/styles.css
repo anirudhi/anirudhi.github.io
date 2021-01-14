@@ -61,6 +61,7 @@ h1 {
 
 .content ul {
     font-size: 2vw;
+    font-weight: 400;
     text-transform: uppercase;
     list-style-type: none;
     font-family: "Comfortaa";
@@ -148,7 +149,7 @@ a.left:hover:before {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1125px) {
     .container {
         width: 100%;
         height: 30%;
@@ -179,7 +180,7 @@ a.left:hover:before {
     }
 
     .content ul {
-        font-size: 25px;
+        font-size: 6vw;
         text-align: center;
         margin-left: 0;
         padding-left: 0;
@@ -195,6 +196,6 @@ a.left:hover:before {
     }
 
     p {
-        font-size: 15px;
+        font-size: 4vw;
     }
 }
