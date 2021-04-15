@@ -1,0 +1,11 @@
+---
+---
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+}
+
+@import
+	"skins/{{ site.skin | default: 'classic' }}",
+	"initialize";
