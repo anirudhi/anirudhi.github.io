@@ -208,16 +208,16 @@ body {
 @media only screen and (max-width: 1000px) {
 	.container {
 		width: 100%;
-        grid-template-rows: 20% 80%;
-	}
-
-	p {
-		font-size: 12px;
-	}
-
-	.content ul {
-		font-size: 25px;
-		margin-left: 2.2vw;
-	}
-
+		height:100vh;
+        grid-template-rows: 15% 85%;
+		
+		p {
+			font-size: 30px;
+		}
+		
+		.content ul {
+			font-size: 45px;
+			margin-left: 2.2vw;
+		}
+	}	
 }
