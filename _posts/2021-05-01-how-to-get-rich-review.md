@@ -16,7 +16,7 @@ The post described the book as "not only a guide on how to get rich, but exactly
 
 The title is an ironic take on the very type of self help book the author despises. Largely in part because it actually fulfils its promises in a manner that its competition does not. Dennis himself states that the book came out of a desire to give the world.
 
-*“an anti-self help book. A book that tells people how hard it is to be a great manager or a great anything. About how hard it is to get rich. Bugger the glib insights!”*
+*“An anti-self help book. A book that tells people how hard it is to be a great manager or a great anything. About how hard it is to get rich. Bugger the glib insights!”*
 
 Hear hear.
 
@@ -27,6 +27,8 @@ Anyone reading this and debating whether to read this book or not, consider your
 Moving on.
 
 So does this book teach you how to get rich? Well yes, but first consider what Dennis considers to be the definition of rich in the first place:
+
+![Rich Scale](/assets/images/rich-scale.png)
 
 For many of us it’s fairly incredulous that the lower levels of this scale would be considered poor. Although it’s certainly indicative of how the rich see the world.
 
@@ -42,7 +44,7 @@ It’s altogether refreshing to read a book where the authors tells it like it i
 7. Sell before you need to, or when bored. Empty your mind when negotiating.
 8. Fear nothing and no one. Get rich. Remember to give it all away.
 
-Anyone who is capable of executing on these will undoubtably become rich. But their difficulty ensure that only a select few, perhaps misguided, do pursue it.
+Anyone (granting sound mind and body, and born into a certain degree of privilge) who is capable of executing on these will undoubtably become rich. But their difficulty ensure that only a select few, perhaps misguided, do pursue it.
 
 The book is full of eclectic anecdotes and profound insights that can only be diminished in my efforts to summarize them. Regardless, this has been one of the best books I’ve ever read, and that warrants mentioning again. 
 
