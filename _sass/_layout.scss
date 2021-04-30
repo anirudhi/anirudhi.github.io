@@ -254,9 +254,16 @@
   
   .post-content {
 	margin-bottom: $spacing-unit;
+	font-family: 'Libre Baskerville';
+	
+	p {
+		letter-spacing: -0.2px;
+		line-height: 1.5em;
+		color: #111;
+	}
   
-	h1, h2, h3 { margin-top: $spacing-unit * 2 }
-	h4, h5, h6 { margin-top: $spacing-unit }
+	h1, h2 { margin-top: $spacing-unit * 2 }
+	h3, h4, h5, h6 { margin-top: $spacing-unit }
   
 	h2 {
 	  @include relative-font-size(1.75);

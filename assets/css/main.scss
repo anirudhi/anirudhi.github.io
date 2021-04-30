@@ -6,6 +6,8 @@
     src: url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 @import
 	"skins/{{ site.skin | default: 'classic' }}",
 	"initialize";

@@ -4,6 +4,7 @@ title: "Naval Booklist"
 date: 2020-06-24
 ---
 
+
 I found a post on twitter showing a list of books that Naval Ravikant recommended. As a fan of his thinking and someone that's constantly looking for something new to read, this seemed like quite a find. My plan is to make steady progress through this list, and I'll update the title of the book with a link to my thoughts about it once I've read it. I was hoping I would have read some of this already, making my job a little easier, but aside from the two books by Douglas Adams, I hadn't. I look forward to the process and I have no doubt it will be an interesting journey.
 
 1. Total Freedom - J. Krishnamurti
